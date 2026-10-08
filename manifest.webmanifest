@@ -1,0 +1,77 @@
+{
+ "id": "/",
+ "name": "Phiếu bài tập cho bé",
+ "short_name": "Phiếu bé",
+ "description": "Phiếu đếm chữ cái, đếm con vật, toán cộng trừ phạm vi 10. Bé làm bài và được chấm điểm ngay, dùng được cả khi không có mạng.",
+ "lang": "vi",
+ "dir": "ltr",
+ "start_url": "/",
+ "scope": "/",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#fffaf0",
+ "theme_color": "#ffcf33",
+ "categories": [
+  "education",
+  "kids"
+ ],
+ "icons": [
+  {
+   "src": "/assets/app/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/assets/app/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "/assets/app/icon-maskable-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "maskable"
+  },
+  {
+   "src": "/assets/app/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Kết quả của bé",
+   "short_name": "Kết quả",
+   "url": "/ket-qua/",
+   "icons": [
+    {
+     "src": "/assets/app/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Đếm con vật",
+   "url": "/dem-con-vat/",
+   "icons": [
+    {
+     "src": "/assets/app/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Đếm chữ cái",
+   "url": "/dem-chu-cai/",
+   "icons": [
+    {
+     "src": "/assets/app/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
